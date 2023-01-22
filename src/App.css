@@ -1,0 +1,81 @@
+#img-card{
+    object-fit: contain;
+    height:286px;
+ 
+}
+html {
+    min-height: 100%;
+    position: relative;
+  }
+  body {
+    margin: 0;
+    margin-bottom: 100px;
+  }
+
+.card-body{
+    height: 196px;
+}
+
+  .header{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    background: linear-gradient(to right,#ED213A ,#93291E );
+  }
+
+  .div-lista-header{
+    display: flex;
+    margin: 20px;
+    
+  
+  }
+ .lista-header{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+ }
+ 
+
+ .navlink{
+   text-decoration: none;
+   font-size: 25px;
+   color: whitesmoke;
+   padding-left: 50px;
+   padding-right: 50px;
+ 
+ }
+.navlink:hover{
+    transition: 0.3s;
+    color: black;
+ }
+ .carrito{
+    align-self: center;
+ }
+
+.btn-finalizarCompra{
+    text-decoration: none;
+    color: black;
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(to right,#ED213A ,#93291E );
+    color: #fff;
+    text-align: center;
+  }
+
+  .redes{
+    display: flex;
+    flex-direction: row;
+  }  
+
+  .redes a{
+    margin: 10px;
+  }
+
